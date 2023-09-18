@@ -9,13 +9,13 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from C0070WW device
 $(call inherit-product, device/blu/C0070WW/device.mk)
 
 PRODUCT_DEVICE := C0070WW
-PRODUCT_NAME := omni_C0070WW
+PRODUCT_NAME := twrp_C0070WW
 PRODUCT_BRAND := BLU
 PRODUCT_MODEL := C5L 2020
 PRODUCT_MANUFACTURER := blu
