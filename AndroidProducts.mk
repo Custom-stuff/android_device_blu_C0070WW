@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_C0070WW.mk
+    $(LOCAL_DIR)/twrp_C0070WW.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_C0070WW-user \
-    omni_C0070WW-userdebug \
-    omni_C0070WW-eng
+    twrp_C0070WW-user \
+    twrp_C0070WW-userdebug \
+    twrp_C0070WW-eng
